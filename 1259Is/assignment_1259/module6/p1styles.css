@@ -1,0 +1,320 @@
+/******f*************
+    Project 1 Stylesheet
+    Name:Yifan Li
+    Date: 2022-10-14
+		Updated: 2022-10-27
+    Description: Project 1 Stylesheet
+********************/
+
+html,body,section, p, header,nav,footer,div,article,aside,ol,ul,li,h1,h6{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+body{
+	background-color: #E6E6E6;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/* height: 1077px;/ */
+}
+
+#container{
+	min-width:810px;
+	background-color: #FFF;
+	border-radius: 8px;
+	/* different margin */
+	margin: 10px 20px 40px 15px;
+	padding: 10px;
+	box-shadow: 1px 1px 2px #A2A2A2, -1px -1px 2px #A2A2A2,	inset 0px -1px 10px #A2A2A2;
+} 
+
+
+a{
+	text-decoration: none;
+}
+
+main{
+	margin-bottom: 70px;
+}
+
+/* pagetop */
+.pagetop{
+	display:flex;
+	justify-content:space-between;
+	align-items: flex-end;
+}
+
+/* logo on the left top */
+.logo{
+  height: 50px;
+}
+
+/* top_nav links */
+
+	.top_nav li,
+	.main_nav li,
+	.footer_line1 li{
+		display: inline;
+		text-align: center;
+	}
+
+	.top_nav a,
+	.title a,
+	.footer_line2 a,
+	.footer_line3 a,
+	.footer_line1 a{
+		color:#2133FF;
+		font-size: 11px;
+	}
+
+	.top_nav a{
+		font-size: 12px;
+	}
+
+	.top_nav a:hover,	
+	.title a:hover,
+	.footer_line1 a:hover,
+	.footer_line2 a:hover,
+	.footer_line3 a:hover{
+		color:rgb(221, 99, 99);
+	}
+
+	.top_nav a:focus,	
+	.title a:focus,
+	.footer_line1 a:focus,
+	.footer_line2 a:focus,
+	.footer_line3 a:focus{
+		color:rgb(196, 89, 89);
+	}
+
+		.item1:before{
+			content: "|";
+			padding-right: 5px;
+			height: 8px;
+			color:#2133FF;
+		}
+		
+	/* search input bar  */
+	.search{
+		padding-bottom: 12px;
+	}
+
+	.button{
+		font-size: 16px;
+	}
+
+	.search input[type='text']
+	{
+		width: 80px;
+		height: 19px;
+		border: 1px solid #ccc;
+	}
+	
+	/* headerbackground part */
+	.headerbackground{
+		height: 196px;
+		background:url("images/headerBackground.jpg");
+		background-size: 100% 196px;
+		}
+
+	/* headerbackground text */
+		.line1{
+			/* float:left; */
+			position: absolute;
+			font-size:1.7em;
+			letter-spacing: 0.3em;
+			color: #eceae3;
+			top: 100px;
+			left:70px;
+		}
+		.line2{
+			position: relative;
+			float: right;
+			font:italic bold 16px Verdana, Geneva, Tahoma, sans-serif ;
+			letter-spacing: 0.2em;
+			color: #eceae3;
+			top:156px;
+			right:45px;
+		}
+
+/* nav */
+.main_nav {
+	/* background-image: linear-gradient(#9cc5f5, #80b1e0,#518abb,#306b9b,#306b9b); */
+	background:#1e32cb;
+	height: 27px;
+	font-size: 0.65em;
+	text-align: center;
+	font-weight: 500;
+}
+
+	.item2:before{
+		content: "|";
+		padding-right: 10px;
+		height: 10px;
+		color:#2133FF;
+		text-shadow: #FFF 0.2px 0.2px;
+	}
+
+	.main_nav a {
+		color: #f5f8f5;
+		line-height: 28px;
+	}
+
+	.main_nav a:hover,a:focus {
+		color: #e4b43c;
+	}
+
+/* aside */ 
+aside{
+	width: 23%;
+	float: left;
+}
+		aside ul li{
+			padding: 5px 0px 5px 10px;
+			border-bottom: 1px solid #d9d9d9;
+			/* background-image: linear-gradient(#efefee,#e6e6e6,#d2d2d2,#d1d0d0);			 */
+			background:#e6e6e6;
+			list-style-type: none;
+			box-shadow: inset 0px 1px 1px #FFF;
+		}
+
+			aside a{
+				color:#3d3a49;
+				font-size: 11px;
+				font-weight: 500;
+			  /* uppercase */
+				text-transform: uppercase;
+				text-shadow: #3d3a49 0.5px 0.2px;
+			}
+
+			aside ul li a:hover,a:focus{
+				color: #e09e21;
+			}
+
+		
+		/* use this to instead bullets */
+
+		.aside_link:before{
+			content: " ● ";
+			font-weight:700;
+			padding-right: 5px;
+			color: #000;
+		}
+
+.nasa_support {
+	margin-top: 50px;
+	border-top: 1px solid #d9d9d9;
+}
+
+	.nasalogo img{
+		float:right;
+		width:45px;
+		padding-top:8px;
+		padding-right:12px;
+	}
+
+	.nasatext p{
+		font-size: 0.6em;
+		color:#6F7872;
+		padding: 10px;
+	}
+
+	.break{
+		clear: both;
+	}
+
+article{
+	width: 77%;
+	float: right;
+}
+
+/* article title style */
+.title{
+	font-size: 0.63em;
+	color: #4f5050;
+	padding-left:20px;
+	padding-top: 3px;
+}
+
+/* article h1 style */
+	article h1{
+		font-size: 1.2em;
+		font-weight: bold;
+		/* color: black; */
+		margin: 30px 0px 0px 20px;
+		border-bottom: 1px solid #d9d9d9;
+	}
+
+	article h2{
+		font-size: 0.7em;
+		color: #000;
+		margin: 10px 0px 10px 20px;
+	}
+
+	.text{
+		font-size: 0.7em;
+		color: #000;
+		line-height: 28px;
+		padding: 10px 0px 10px 10px;
+		margin-left: 10px;
+	}
+
+	.highlight{
+		font-weight: 700;
+		color:#2133FF;
+	}
+
+	.link{
+		font-size: 0.7em;
+		font-weight: 700;
+		color:#2133FF;
+		margin-left: 60px;
+		line-height: 42px;
+
+	}
+
+	.section_right{
+		float: right;
+		width: 270px;
+		border: 1px solid #ccc;
+		padding:8px 5px 5px 6px;
+		margin-top:18px;
+		text-align: center;
+	}
+
+	.section_right p{
+		font-size: 0.58em;
+		color: #000;
+		line-height: 17px;
+	}
+
+	.section_right img{
+		width: 100px;
+		border: #000 1px solid;
+	}
+
+/* footer */
+
+.footer{
+	font-size: 11px;
+	text-align: center;
+}
+
+	.footer_line1 li {
+		display: inline;
+	}
+
+ ul li a:hover,a:focus{
+		color:rgb(223, 62, 62);
+	}
+
+		.item3:before{
+			content: "|";
+			padding-right: 5px;
+			height: 8px;
+			color:#000;
+		}
+
+	.footer_line3 span{
+		color:#6F7872;
+	}
