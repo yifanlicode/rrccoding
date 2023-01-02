@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"<Unnamed>","c":"CoinType","l":"DIME"},{"p":"<Unnamed>","c":"CoinType","l":"NICKEL"},{"p":"<Unnamed>","c":"CoinType","l":"QUARTER"},{"p":"<Unnamed>","c":"CoinType","l":"valueOf(String)","u":"valueOf(java.lang.String)"},{"p":"<Unnamed>","c":"CoinType","l":"values()"}];updateSearchResults();
