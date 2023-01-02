@@ -10,14 +10,12 @@
 
 DROP TABLE Information;
 CREATE  TABLE  Information (
-    -- 记得新增行 都要加逗号
     student_id    NUMERIC(7)  NOT NULL,
     name          VARCHAR (50)  NOT NULL ,
     score         NUMERIC(4,2), 
     city          VARCHAR (50),  
     birth_date    DATE,
     
-    --每一个 constraint 结束后都要加逗号
     CONSTRAINT InformationPK 
         PRIMARY KEY(student_id)
 );
@@ -80,7 +78,7 @@ CREATE TABLE Routes (
     arrival_city_name VARCHAR(85) NOT NULL,
     CONSTRAINT RoutesPK
         PRIMARY KEY (routing_id),
-    CONSTRAINT route_length_positive
+    CONSTRAINT RoutesLengthCK
     CHECK (route_length > 0.0 AND route_length < 20.0)
 );
 
