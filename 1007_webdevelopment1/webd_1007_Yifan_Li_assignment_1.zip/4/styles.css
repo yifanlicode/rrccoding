@@ -1,0 +1,48 @@
+/*******f************
+
+    Competency 4
+    Name: YifanLi
+    Date: 2022-09-07
+    Description: FullStackWebDevelopment Competency4:CSS for Tables
+
+********************/
+
+body{
+	font-family: 'Dosis', sans-serif;
+	/*Pexels: free stock images & copyright free pictures.*/
+	 /*source link : https://www.pexels.com/zh-cn/photo/189349/*/
+	background-image: url('images/ocean.jpg');
+	background-size: 1200px;
+	background-repeat: no-repeat;
+}
+
+table {
+	border: 2px solid black;
+	background-color: #ad9d6d;
+	color: #ddd;
+	width: 80%;
+	margin: 25px auto;
+	padding: 10px;
+	border: 4px solid black;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px #aaa;
+}
+
+table tbody tr:nth-child(odd){
+	background-color: #888;
+}
+
+table tbody tr:hover{
+	background-color: #387af6;
+}
+
+table caption {
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	color: #777;
+}
+thead {
+	font-weight: bold;
+	background-color: #959595;
+}
