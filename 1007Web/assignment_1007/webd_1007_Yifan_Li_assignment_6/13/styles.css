@@ -1,0 +1,21 @@
+/*******f************
+		Competency 13
+    Name: Yifan Li
+    Date:  2022-11-03
+    Description: Competency 13 Event Listeners
+
+********************/
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+form{
+	width: 50%;
+}
+
+input[type="text"]{
+	display: none;
+}

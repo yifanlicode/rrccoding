@@ -1,0 +1,13 @@
+
+/* 
+    Competency 5
+    Name: YifanLi
+    Date: 2022-10-10
+    Description: Module3-1 Inputs and Labels 
+*/
+
+
+form#basicinfo input:focus,
+form#basicinfo textarea:focus {
+	background:#c7c3c3;
+}	

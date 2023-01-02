@@ -1,0 +1,133 @@
+[
+	{
+		"common_name": "Penguin",
+		"scientific_name": "Spheniscidae",
+		"description": "Spheniscidae are a group of aquatic flightless birds. They live almost exclusively in the Southern Hemisphere: only one species, the Galápagos penguin, is found north of the Equator. Highly adapted for life in the water, penguins have countershaded dark and white plumage and flippers for swimming. Most penguins feed on krill, fish, squid and other forms of sea life which they catch with their bills and swallow it whole while swimming. A penguin has a spiny tongue and powerful jaws to grip slippery prey.They spend roughly half of their lives on land and the other half in the sea.",
+		
+		"images": {
+			"image": [
+				"penguin01.jpg",
+				"penguin02.jpg",
+				"penguin03.jpg",
+				"penguin04.jpg"
+			]
+		}
+	},
+	
+	{
+			"common_name": "Elephant",
+			"scientific_name": "Elephantidae",
+			"description": "Elephants are a family in the order Proboscidea in the class Mammalia. They were once classified along with other thick skinned animals in a now invalid order, Pachydermata. There are three living species: the African Bush Elephant, the African Forest Elephant (until recently known collectively as the African Elephant), and the Asian Elephant (also known as the Indian Elephant). Other species have become extinct since the last ice age, which ended about 10,000 years ago, the Mammoth being the most well-known of these.",
+			"images": {
+				"image": [
+					"elephant13.jpg",
+					"elephant22.jpg",
+					"elephant32.jpg",
+					"elephant42.jpg"
+				]
+			}
+		},
+		{
+			"common_name": "Emu",
+			"scientific_name": "Dromaius novaehollandiae",
+			"description": "The Emu is the largest bird native to Australia and the only extant member of the genus Dromaius. It is also the second-largest extant bird in the world by height, after its ratite relative, the ostrich. The soft-feathered, brown, flightless birds reach up to 2 m (6.5 ft) in height. The Emu is common over most of mainland Australia, although it avoids heavily populated areas, dense forest and arid areas. Emus can travel great distances at a fast, economical trot and, if necessary, can sprint at 50 km/h (30 mph) for some distance at a time. They are opportunistically nomadic and may travel long distances to find food; they feed on a variety of plants and insects.",
+			"images": {
+				"image": [
+					"emu12.jpg",
+					"emu26.jpg",
+					"emu46.jpg",
+					"emu23.jpg"
+				]
+			}
+		},
+		{
+			"common_name": "Lion",
+			"scientific_name": "Panthera leo",
+			"description": "The lion is a member of the family Felidae and one of four big cats in the genus Panthera. With exceptionally large males exceeding 250 kg (550 lb) in weight, it is the second-largest living cat after the tiger. Wild lions currently exist in sub-Saharan Africa and in Asia with a critically endangered remnant population in northwest India, having disappeared from North Africa, the Middle East, and western Asia in historic times. Until the late Pleistocene (about 10,000 years ago), the lion was the most widespread large land mammal beside humans. They were found in most of Africa, much of Eurasia from western Europe to India, and the Bering land bridge and, in the Americas, from the Yukon to Peru.",
+			"images": {
+				"image": [
+					"lion51.jpg",
+					"lion24.jpg",
+					"lion43.jpg",
+					"lion46.jpg"
+				]
+			}
+		},
+		{
+			"common_name": "Orca",
+			"scientific_name": "Orcinus orca",
+			"description": "The Orca (Orcinus orca), also referred to as the killer whale, and less commonly as the blackfish or grampus, is a toothed whale belonging to the oceanic dolphin family, of which it is the largest member. Orcas are found in all oceans, from Arctic and Antarctic regions to tropical seas. Orcas have a diverse diet, although individual populations often specialize in particular types of prey. Some feed exclusively on fish, while others hunt marine mammals like pinnipeds, and even large whales. They have been known to attack baleen whale calves. Orcas are regarded as apex predators, lacking natural predators. Orcas are highly social; some populations are composed of matrilineal family groups which are the most stable of any animal species. Their sophisticated hunting techniques and vocal behaviors, which are often specific to a particular group and passed across generations, have been anthropomorphically described as manifestations of culture.",
+			"images": {
+				"image": [
+					"orca1.jpg",
+					"orca2.jpg",
+					"orca3.jpg",
+					"orca4.jpg"
+				]
+			}
+		},
+		{
+			"common_name": "Panda",
+			"scientific_name": "Ailuropoda melanoleuca",
+			"description": "The Giant Panda is a mammal classified in the bear family, Ursidae, native to central-western and southwestern China. The panda was previously thought to be a member of the Procyonidae. It is easily recognized by its large, distinctive black patches around the eyes, over the ears, and across its round body. Though belonging to the order Carnivora, the panda has a diet which is 99% bamboo. Pandas may eat other foods such as honey, eggs, fish, yams, shrub leaves, oranges and bananas. Giant pandas live in a few mountain ranges in central China, in Sichuan, Shaanxi, and Gansu provinces. They once lived in lowland areas, but farming, forest clearing, and other development now restrict giant pandas to the mountains.",
+			"images": {
+				"image": [
+					"panda31.jpg",
+					"panda23.jpg",
+					"panda3.jpg"
+				]
+			}
+		},
+		{
+			"common_name": "Tiger",
+			"scientific_name": "Panthera tigris",
+			"description": "The tiger is a mammal of the Felidae family, the largest of four \"big cats\" in the Panthera genus. Native to much of eastern and southern Asia, the tiger is an apex predator and an obligate carnivore. Reaching up to 4 metres (13 feet) in total length and weighing up to 300 kg (660 pounds), tigers are comparable in size to the biggest extinct felids. Aside from their great bulk and power, their most recognizable feature is the pattern of dark vertical stripes that overlays near-white to reddish-orange fur, with lighter underparts.",
+			"images": {
+				"image": [
+					"tiger18.jpg",
+					"tiger62.jpg",
+					"tiger33.jpg",
+					"tiger14.jpg"
+				]
+			}
+		},		
+		{
+			"common_name": "Toad",
+			"scientific_name": "Bufonidae",
+			"description": "Toad refers to a number of species of amphibians. A distinction is often made between frogs and toads by their appearance, prompted by the convergent adaptation among so-called toads to dry environments. For instance, toads often have leathery skin for better water retention, and a brown coloration for camouflage. Many so-called toads also burrow, which requires further adaptations.",
+			"images": {
+				"image": [
+					"toad11.jpg",
+					"toad72.jpg",
+					"toad34.jpg",
+					"toad94.jpg"
+				]
+			}
+		},
+		{
+			"common_name": "Turtle",
+			"scientific_name": "Chordata Sauropsida",
+			"description": "Turtles are reptilians of the Order Testudines (all living turtles belong to the crown group Chelonia), most of whose body is shielded by a special bony or cartilaginous shell developed from their ribs. The Order Testudines includes both extant (living) and extinct species. The earliest known turtles date from 215 million years ago, making turtles one of the oldest reptile groups and a more ancient group than lizards and snakes. About 300 species are alive today, and some are highly endangered.",
+			"images": {
+				"image": [
+					"turtle1.jpg",
+					"turtle2.jpg",
+					"turtle63.jpg",
+					"turtle34.jpg"
+				]
+			}
+		},
+		{
+			"common_name": "Zebra",
+			"scientific_name": "Equus quagga",
+			"description": "Zebras are odd-toed ungulates of the Equidae family native to eastern, southern and southwestern Africa. They are best known for their distinctive white and black stripes, which come in different patterns unique to each individual. They are generally social animals and can be seen in small harems to large herds.",
+			"images": {
+				"image": [
+					"zebra1.jpg",
+					"zebra9.jpg",
+					"zebra3.jpg",
+					"zebra4.jpg"
+				]
+			}
+		}
+	]

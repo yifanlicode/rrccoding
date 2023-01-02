@@ -1,0 +1,115 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Payment Form</title>
+	<link rel="stylesheet" type="text/css" href="formstyles.css" />
+</head>
+
+<body>
+	<form id="payment" method="post" action="formLecture.html">
+
+		<!--<fieldset> 元素用于对form分 section（也包括 label 元素）  -->
+		<fieldset>
+			<!-- <legend>是 fieldset的标题 -->
+			<legend>Your Details</legend>
+			<ol>
+				<li>
+					<!-- for属性为了指向绑定的 input, 等于<input>元素的id属性 -->
+					<label for="name">Name</label>
+					<input type="text" id="name" name="name" />
+				</li>
+				<li>
+					<label for="email">Email</label>
+					<!-- email 格式验证-->
+					<input type="email" name="email" id="email"/>
+				</li>
+				<li>
+					<label for="phone">Phone</label>
+					<input id="phone" name="phone" type="tel" 
+					placeholder="Ex:232433453">
+				</li>
+			</ol>
+		</fieldset>
+
+		<fieldset>
+			<legend>Delivery Address</legend>
+			<ol>
+				<li>
+					<label for="address">Adress</label>
+					<textarea id="address" name="address" rows="5"></textarea>
+				</li>
+				<li>
+					<label for="postalcode">PostalCode</label>
+					<input type="text"  id="postalcode" name="postalcode"
+					placeholder="HOH NFO">
+				</li>
+				<li>
+					<label for="country">Country</label>
+					<select name="country" id="country">
+						<option value="Afghanistan">Afghanistan</option>
+						<!-- 可以设置优先显示的国家 -->
+						<option value="Canada" selected>Canada</option>
+						<option value="America">America</option>
+						<option value="England">England</option>
+						<option value="Korea">Korea</option>
+						<option value="China">China</option>
+						<option value="India">India</option>
+						<option value="Thailand">Thailand</option>
+						<option value="Japan">Japan</option>
+					</select>
+				</li>
+			</ol>
+		</fieldset>
+
+		<fieldset>
+			<legend>Card Details</legend>
+			<ol>
+				<li>
+					<fieldset>
+						<legend>Card Type</legend>
+						<ol>
+							<li>
+								<label for="visa">Visa</label>
+								<!--"radio"> defines a radio button. -->
+								<input type="radio" name="cardtype" id="Visa">
+							</li>
+							<li>
+								<label for="amex">AmEx</label>
+								<input type="radio" name="cardtype" id="amex">
+							</li>
+							<li>
+								<label for="mastercard">MasterCard</label>
+								<input type="radio" name="cardtype" id="mastercard">
+							</li>
+						</ol>
+					</fieldset>
+				</li>
+				<li>
+					<label for="cardnumber">Cardnumber</label>
+					<input type="number" name="cardnumber" id="cardnumber"
+					placeholder="EX:4367 4335 7002 567" >
+				</li>
+				<li>
+					<label for="secure">Secure Code</label>
+					<input type="number" name="secure" id="secure">
+				</li>
+				<li>
+					<label for="namecard">Mame on Card</label>
+					<input type="text" name="namecard" id="namecard">
+				</li>
+			</ol>
+		</fieldset>
+
+
+		<fieldset>
+			<!-- 添加一个 button -->
+			<button type="submit"> Buy It </button>
+		</fieldset>
+		
+	</form>
+
+</body>
+</html>

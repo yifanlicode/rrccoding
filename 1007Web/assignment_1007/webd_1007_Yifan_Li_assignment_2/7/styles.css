@@ -1,0 +1,52 @@
+/*******f************
+
+    Competency 7
+    Name: YifanLI
+    Date: 2022-09-15 
+    Description: Navigation
+
+********************/
+
+
+nav{
+    width: 90%;
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+
+    /* Apply a CSS Gradient to the background of navigation. */
+    background-image: linear-gradient(to right,pink,orange,yellow,green,skyblue,violet);
+    color: aliceblue;
+    font-size: 2em;
+}
+
+nav ul{
+    /* flexbox, links horizontal */
+    display: flex;
+    flex-direction: row; 
+    /* Ensure when the browser window reduces in size the links wrap to the next line. */
+    flex-wrap: wrap;
+
+    padding: 1px;
+    margin: 0px;
+    text-align: center;
+}
+
+nav ul li{
+    flex:1;
+    list-style:none;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 0.7em;
+}
+
+    /* when hovers ,change the link styles : background color*/
+    nav ul li a:hover,nav ul li a:focus{
+        background: white;
+       
+    }

@@ -1,0 +1,60 @@
+
+
+body{
+	font-family: Helvetica,sans-serif;
+	background-image: url('images/background.jpg');
+	background-repeat: no-repeat;
+}
+
+
+
+#content table{ 
+	background-color: #FFF;
+	border: 1px #5E7410;
+	margin: 0px auto;	
+	text-align: left;
+	width: 100%;
+}
+
+#content table caption{
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow: 10;
+	color: #FFF;
+}
+
+
+#content table thead th{
+	background-color: #BFE542;
+	padding: 9px 24px;
+	font-size: 18px;
+	text-align: center;
+	text-shadow: 1px 1px 2px #FFF;
+}
+
+
+#content table tbody th{
+	background-color: #D5DC09;
+	color: #FFF;
+	padding: 9px 24px;
+	font-size: 18px;
+	text-align: center;
+	text-shadow: 1px 1px 2px #000;
+}
+
+
+#content table tbody td{
+	border-top: 1px #5E7410 solid;
+	text-align: center;
+	padding: 6px 24px;
+}
+
+#content table tbody tr:nth-child(odd){
+	background-color: #DDD;
+}
+
+odd   even
+
+#content table tbody tr:hover{
+	background-color: #FF6984;
+}

@@ -1,0 +1,29 @@
+.container{
+	width: 1000px;
+	margin: 5px auto;
+	background-color: lightblue;
+}
+
+.container p{
+	color: rgb(221, 168, 69);
+}
+
+.span-8{
+		margin: 10px auto;
+		width: 800px;
+	
+}
+table{
+	float:left;
+	background-color: #FFF;
+	text-align: center;
+}
+
+pre{
+	clear:both;
+	margin-top: 10px;
+}
+
+.zebra {
+	background-color: pink;
+}

@@ -1,0 +1,89 @@
+
+
+/* 关于 flex items child elements items */
+
+
+
+.container-1 div,.container-3 div{
+	border:2px pink solid;
+	padding:10px;
+}
+
+.box-1{
+	/*	This makes the widths equal 可以让 3 个盒子一样大, */
+	/* 如果flex: 2,将是别的box 2 倍大 */
+	flex: 1;
+	order: 2;
+	/*是其他元素大小的3倍*/
+	/*flex-grow property: how much a item will grow relative to the rest of the flex items.*/
+	/*	flex-grow: 3;*/
+}
+
+.box-2{
+	/*	This makes the widths equal*/
+	flex: 1;
+	/*	order:3 moves the 2nd box to be the one on the right.*/
+	/*The order property specifies the order of the flex items.*/
+	order: 3;
+
+}
+
+.box-3{
+	/*	This makes the widths equal*/
+	flex: 1;
+/*flex-shrink property: how much it will shrink relative to the rest of the flex items.*/
+/*	flex-shrink: 3;*/
+}
+
+
+.container-3{
+	display: flex;
+	/* 随着窗口缩小 自动换行 */
+	flex-wrap: wrap;
+	
+}
+
+.container-3-box{
+	flex-basis: 30%;
+}
+
+
+/*只有当宽度大于这个最小值的时候才显示为 flex*/
+ @media(min-width:768px){
+
+/* 这就意味着 下面是网页版的效果 flex */
+	.container-1{
+		display: flex;
+		/* 这是默认的 strech */
+		/* align-items: stretch; */
+		/* 这是 top 对齐 */
+		/* align-items: flex-start;  */
+		/* 这是 end 对齐 */
+		/* align-items: flex-end;  */
+		/* 这个是盒子中轴线对齐 */
+		align-items: flex-end;
+	
+		/* 竖着排列 */
+		/* flex-direction: column; */
+	}
+
+	.container-2{
+			display: flex;
+			/* justify-content: flex-start; */
+			/* justify-self:flex-end; */
+			/* justify-content: center; */
+			justify-content:space-around;
+		
+		}
+	
+	
+	.container-2-box{
+		/* width: 30%; */
+		flex-basis: 30%;
+		border: 2px rgb(15, 157, 192) solid ;
+	}
+
+
+ }
+
+

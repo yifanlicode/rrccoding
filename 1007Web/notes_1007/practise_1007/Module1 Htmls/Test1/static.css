@@ -1,0 +1,39 @@
+
+#static{
+	position: static;
+	width:200px;
+	height: 200px;
+	background: #AABBCC;
+	color: #FFF;
+}
+
+
+#relative{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #BBCCDD;
+	color: #FFF;
+	left: 0px;
+	top: 10px;
+}
+
+#absolute{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: #335577;
+	color: #FFF;
+	right: 0px;
+	top: 10px;
+}
+
+#fixed{
+	position: fixed;
+	width: 200px;
+	height: 200px;
+	background: #00FFAA;
+	color: #000;
+	top: 40%;
+	left: 40%;
+}

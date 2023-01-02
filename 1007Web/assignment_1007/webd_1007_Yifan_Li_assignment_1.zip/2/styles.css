@@ -1,0 +1,33 @@
+/*******f************
+
+    Competency 2
+    Name: YifanLi
+    Date: 2022-09-06
+    Description: Competency2:CSS
+
+********************/
+
+
+body{
+    background-color: #387af6;
+}
+
+article{
+    width: 600px;
+    margin:0px auto;
+    border: 5px #554626 solid;
+    box-shadow: 2px 2px 2px 2px #888;
+}
+
+ul{
+    width:200px;
+    margin: auto;
+}
+
+li{
+    border: 2px #000 double;
+    padding: 10px 10px 10px 10px; 
+    /* Clears an area around the content*/
+    /* top padding is 10px ;right padding is 10px ;bottom padding is 10px ;left padding is 10px */
+
+}

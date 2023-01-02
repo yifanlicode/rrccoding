@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+    background-color: aliceblue;
+    background-repeat: repeat-x;
+}
+
+
+table{
+    width: 800px;
+    border-style: dashed;
+}

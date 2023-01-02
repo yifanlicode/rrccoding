@@ -1,0 +1,44 @@
+/*******f************
+
+    Competency 6
+    Name: YifanLi
+    Date:2022-09-15 
+    Description:Learn FlexBOX
+
+********************/
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    /* The row value stacks the flex items horizontally  */
+    flex-direction: row;
+     /* aligns the flex items at the bottom of the container */
+    align-items: flex-end; 
+    height: 300px;
+}
+
+.item1{
+    flex: 1;
+    /* change the order of items */
+    order:3;
+    /* change the vertical position of items */
+    align-self: flex-start;
+    border: 1px pink solid;
+
+
+}
+
+.item2{
+    flex:1;
+    order:1;
+    border: 1px skyblue solid;
+
+}
+
+.item3{
+    flex:1;
+    order:2;
+    border: 1px skyblue solid;
+}
+

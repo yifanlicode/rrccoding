@@ -1,0 +1,45 @@
+
+
+<!-- Competency 10
+Name: YifanLi
+Date: 2022-10-09 
+Description: Module3-2 Textareas, Buttons, & Selects -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Competency 10</title>
+	</head>
+	<body>
+		<!-- Create your form elements inside the form tag -->
+
+		<!-- On submit,  the form data is sent to a file called "action_page.php". 
+			This file contains a server-side script that handles the form data -->
+		<form id="info" method="post" action="/action_page.php" >
+
+			<!-- Textarea -->
+			
+			<label for="self_introduction"> Self Introduction </label><br>
+			<textarea name="self_introduction" id="self_introduction" rows="10" cols="37" placeholder="Please enter your self introduction here."></textarea><br>
+
+
+			<!-- select -->
+			<label for="select">Select your favorite color:</label>
+			<select id="select" name="select">
+				<option value="red">Red</option>
+				<option value="green">Green</option>
+				<option value="blue">Blue</option>
+				<option value="blue">Yellow</option>
+				<option value="blue">Black</option>
+			</select><br>
+
+			<!-- buttons -->
+
+			<button type="button" onclick="alert('whoops')">Clear</button>
+			<button type="submit" form="info" value="Submit">Submit</button>
+			<button type="reset" form="info" value="Reset">Reset</button>
+
+
+		</form>
+	</body>
+</html>

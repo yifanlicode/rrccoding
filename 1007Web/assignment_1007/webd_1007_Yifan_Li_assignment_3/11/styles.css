@@ -1,0 +1,75 @@
+/*******w************
+
+    Competency 11
+    Name: YifanLi
+    Date: 2022-10-09 
+    Description:Aligning Form Elements
+
+********************/
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+
+/* Add a set width (% or px) to the form */
+
+form{
+    width: 95%;
+    /* Align form in the middle of the page. */
+    margin: 0px auto;
+    /* Change the background and font colours. */
+    background-color:#c3ce99 ;
+    color: rgb(40, 37, 37);
+   
+}
+
+#section1 ol li{
+	list-style:none;
+	padding:5px 5px;
+	margin-bottom:2px;
+}
+
+/* Align labels are all the same width.  */
+form label{
+    display: inline-block;
+    width: 200px;
+    padding-right: 10px;
+    margin: 20px;
+}
+
+/* Align the textboxes so that they are all the same width. */
+input[type='text']{
+    width:200px;
+    height: 30px;
+}
+
+input[type='email']{
+    width: 200px;
+    height: 30px;
+}
+
+input[type='tel']{
+    width: 200px;
+    height: 30px;
+}
+
+/* checkbox on the same line (horizontal). */
+
+#section2 ol{
+    margin: 10px;
+    display:flex;
+    flex-direction: row;
+}
+
+#section2 li{
+    list-style: none;
+}
+
+
+
+
+
+

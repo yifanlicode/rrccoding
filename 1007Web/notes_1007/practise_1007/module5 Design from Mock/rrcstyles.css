@@ -1,0 +1,178 @@
+html,body,section, p, header,footer,div,article,aside{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+body{
+	background-color: #F5F5F5;
+	font-family: Helvetica, Arial, Times;
+}
+
+header{
+	width: 100%;
+	height: 60px;
+	background-color: #36454f;
+	color: #FFF;
+}
+
+	#headingrow label{
+		font-family: Cinzel;
+	}
+
+nav ul{
+	transition: 1s;
+}
+
+nav ul a:hover{
+	color: #F00;
+}
+
+
+#mainheading{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	/* height: 80px; */
+	margin:0px auto;
+	text-align: center;
+	color: #FFF;
+	background: linear-gradient(to bottom, #e2616a 0%,#d80407 44%,#af0002 100%);
+}
+
+
+#mainheading h1{
+	margin: 0px;
+	padding: 0px;
+	font-family: Cinzel;
+	text-shadow: 1px 1px 2px #000;
+	font-size: 2.5em;
+	padding-top: 20px;
+}
+
+nav{
+	width: 100%;
+	background-color:#777;
+	align-items: center;
+	box-shadow: 1px 0px 2px  #333 -1px 0px 2px #333;
+}
+
+	nav ul {
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+	}
+
+		nav ul li{
+			border: 1px solid #AAA;
+			color: #777;
+			height: 60px;
+			line-height: 60px;
+			transition: 1s;
+		}
+
+			nav ul li a{
+				font-family: 'Courier New', Courier, monospace;
+				color: #FFF;
+				text-decoration: none;
+			}
+
+				nav ul li a:hover{
+					color: red;
+				}
+
+section{
+	width: 100%;
+	background-color: #FFF;
+	margin: 10px auto;
+	padding: 10px;
+	border: 1px solid #000032;
+	box-shadow: 1px 2px  #333 1px 2px  #333;
+}
+
+
+	section h1,#content h2{
+		font-family: Cinzel;
+		text-shadow: 1px 1px 2px #333;
+	}
+
+  #content p{
+		margin-bottom: 3px;
+	}
+
+	aside h2{
+		font-family: Cinzel;
+		background-color: #777;
+		color: #FFF;
+		scroll-padding-left: 3px;
+		height: 30px;
+		line-height: 30px;
+	}
+
+	aside p img.rrc,aside p img.learn,aside p img.share{
+		float: right;
+		padding: 3px;
+		border:  1px solid #000;
+	}
+
+@media (min-width: 640px) {
+
+	#mainheading{
+		height: 180px;
+	}
+
+	#mainheading h1{
+		font-size: 2.6em;
+	}
+
+	nav ul{
+     display: flex;
+		 justify-content: space-around;
+		 flex-wrap: nowrap;
+	}
+		nav ul li{
+			border: none;
+			transition: none;
+		}
+
+		nav ul a{
+			transition: 1s;
+		}
+
+		nav ul li :hover{
+			background-color: #777;
+		}
+
+		#content{
+			display: flex;
+		}
+			#content article{
+				flex:3;
+			}
+
+			#content aside{
+				flex:1;
+			}
+
+
+	
+
+	}
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+

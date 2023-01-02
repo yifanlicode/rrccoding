@@ -1,0 +1,68 @@
+/*******f************
+
+    Competency 8
+    Name: YifanLi
+    Date:2022-09-15 
+    Description:Media Queries
+
+********************/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+nav {
+	background-color: orange;
+	margin: 25px auto 0px;
+	/* height: 70px; */
+	width: 80%;
+	line-height: 70px;
+	font-size: 0.9em;
+	text-shadow: #000 1px 1px 3px;
+	box-shadow: 5px 5px 10px #000;
+	border-radius: 5px;
+}
+
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+	width: 100%;
+}
+
+nav ul li {
+	padding: 0px 7px;
+}
+
+nav ul li a {
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav ul li:hover{
+	background-color: black;
+}
+
+
+/*when the browser is <= 680px, the navigation becomes vertical*/
+
+@media(max-width:680px){
+
+		nav ul {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+		}
+
+
+		nav ul li {
+			width: 100%;
+			border: 1px black solid;
+		}
+}

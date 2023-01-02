@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:aquamarine;
+}
+
+#container{
+    width: 700px;
+    margin:30px auto;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+    border: black solid 2px;
+}
+
+header{
+    width: 600px;
+    height: 60px;
+    padding: 10px;
+    margin: 5px auto;
+    border-radius: 10px;
+    background-color:aliceblue;
+    border: black solid 2px;
+}
+
+#maincontent{
+    float: left;
+    width:400px;
+    height: 300px;
+    padding: 10px;
+    margin: 5px 40px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: black solid 2px;
+}
+
+aside{
+    float: left;
+    width: 100px;
+    height: 300px;
+    padding: 10px;
+    margin: 5px 35px 5px;
+    border: black solid 2px;
+}
+
+/* 这个 footer 和上面的 float 绑定在一起了 */
+footer{
+    /* 这里来清除关系 */
+    clear:both;
+    width:600px;
+    height: 60px;
+    padding: 10px;
+    margin: 0px auto;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: black solid 2px;
+}

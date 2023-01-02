@@ -1,0 +1,41 @@
+h1,h2{
+	color:red;
+	text-shadow: 2px 2px 4px #000;
+}
+
+body{
+	background-color: #ffff99;
+	width: 800px;
+	font-family: verdana;
+}
+
+
+.intro{
+	width: 80;
+	margin: 10px auto 10px auto;
+	padding: 5px 20px 20px 60px;
+	background-color: #FFF;
+	border: 4px #000 dashed;
+	box-shadow: 5px 5px 5px #888;
+}
+
+#title{
+	background-color: blue;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:visted{
+	color: bule;
+}
+
+a:hover{
+	color: green;
+}
+
+a:articles{
+	color: purple;
+}
+

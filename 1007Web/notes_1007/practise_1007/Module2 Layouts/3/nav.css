@@ -1,0 +1,75 @@
+/* 设置导航栏 */
+/* 设置宽度 背景色 边框 字体加粗 颜色 边距 */
+
+nav{
+	width: 100%;
+	background-color: #22232c;
+	border: 2px solid #000;
+	text-align: center;
+	font-weight: bold;
+	color: #FFF;
+	margin: 0x auto;
+}
+
+
+/* 设置 flexbox model  */
+
+nav ul {
+	display:flex;
+
+	/* flex-wrap: nowrap; Default value
+	flex 的元素被摆放到到一行，这可能导 致 flex 容器溢出。 */
+
+
+	/* wrap flex 元素 被打断到多个行中。 */
+	flex-wrap: wrap;
+
+	/* 字和边框的距离 这部分还要再理解 */
+	padding: 1px;  
+	margin: 0px;
+
+	/* 这里去掉了 前面的点 */
+	list-style: none;
+	text-align: center;
+	justify-content: center;
+}
+
+	nav ul li{
+		flex: 1;
+		border-right:1px solid #bbb;
+		padding: 0px;
+		border:0px solid #04AA6D;
+	}
+
+	nav ul li a{
+		/* 设置颜色 */
+		color: #FFF;
+		/* 设置没有下划线 */
+		text-decoration:none;
+		/* 设置字体和字体大小 */
+		font-family:'Times New Roman', Times, serif;
+		font-size: 0.8em;
+	}
+
+	nav ul li:hover,nav ul li a:focus{
+		background-color: #04AA6D;
+	}
+
+
+@media(min-width:768px){
+	nav ul{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		text-align: center;
+	}
+
+	nav ul li{
+		border:none;
+		flex:1;
+	}
+
+	nav ul li:hover,nav ul li a:focus{
+		text-shadow: 2px 2px 1px #000;
+	}
+}

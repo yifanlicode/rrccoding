@@ -1,0 +1,127 @@
+/* 设置导航栏 */
+/* 设置宽度 背景色 边框 字体加粗 颜色 边距 */
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+}   
+
+header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #04AA6D;
+    border: 1px #000 solid;
+}
+    /* 这是一个父子关系 */
+    header > h1{
+        margin: auto;
+        padding: 20px;
+        color: aliceblue;
+        font-size: 1.5em;
+        transition: .5s;
+    }
+
+
+nav{
+	width: 100%;
+	background-color: #22232c;
+	border: 2px solid #000;
+	font-weight: bold;
+	color: #FFF;
+	margin: 0x auto;
+}
+
+
+/* 设置 flexbox model  */
+
+    nav ul {
+    
+    /* 字和边框的距离 这部分还要再理解 */
+    padding: 1px;  
+
+    /* 这里去掉了 前面的点 */
+    list-style: none;
+    
+    }
+
+        nav ul li{
+            padding: 10px;
+            flex: 1;
+            border:1px black solid;
+        }
+
+        nav ul li:hover,nav ul li:focus{
+            background-color: #48efb2;
+        }
+
+            nav ul li a{
+                /* 设置颜色 */
+                color: #FFF;
+                /* 设置没有下划线 */
+                text-decoration:none;
+                /* 设置字体和字体大小 */
+                font-family:'Times New Roman', Times, serif;
+                /* em是最大单元了 字母的 */
+                font-size: 1.2em;
+            }
+
+        
+
+@media(min-width:648px){
+	header > h1{
+        font-size: 2.1em;
+    }
+    
+    nav ul{
+		display:flex;
+    /* flex-wrap: nowrap; Default value
+    flex 的元素被摆放到到一行，这可能导 致 flex 容器溢出。 */
+
+    /* wrap flex 元素 被打断到多个行中。 */
+        flex-wrap: wrap;
+        justify-content: space-around;
+	}
+
+	nav ul li{
+		border:none;
+	}
+
+        nav ul li:hover,nav ul li a:focus{
+            text-shadow: 2px 2px 1px #000;
+        }
+}
+
+
+#content{
+    width: 95%;
+    margin: 10px auto;
+    padding: 5px;
+    background-color: white;
+    border: 3px black solid;
+    border-radius: 15px;
+}
+
+    #content h3{
+        font-size: 1.3em;
+        color: #04AA6D;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #content p{
+        position: relative;
+    }
+    
+    #content p img{
+        position: absolute;
+        top:-100px;
+        right: 5px;
+    }
+
+
+
+
+
+
+

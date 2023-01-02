@@ -1,0 +1,57 @@
+body{
+	font-family: Helvetica,sans-serif;
+	background-color: blueviolet;
+	background-image: url("images/nervos.jpg");
+	background-repeat: repeat;
+}
+
+
+#content table{
+	margin:auto;
+	text-align: center;
+	border: 10px #e6edcf;
+	margin: 0px auto;
+	width:800px;
+}
+
+#content table caption{
+	font-size:28px;
+	font-weight:bold;
+	text-shadow:10;
+	color: white;
+}
+
+#content table thead th{
+	background-color: #ed7286;
+	padding: 9px 24px;
+	font-size: 18px;
+	text-align: center;
+	text-shadow: 1px 1px 2px #FFF;
+}
+
+
+#content table tbody th{
+	background-color: #F5F5F5;
+	color: #000;
+	padding: 9px 24px;
+	font-size: 18px;
+	text-align: center;
+	text-shadow: 1px 1px 2px #F5F5F5;
+}
+
+
+#content table tbody td{
+	border-top: 3px #5E7410 solid;
+	text-align: center;
+	color: white;
+	padding: 6px 24px;
+}
+
+#content table tbody tr:nth-child(even){
+	background-color:green;
+}
+
+
+#content table tbody tr:hover{
+	background-color: #F5F5F5;
+}

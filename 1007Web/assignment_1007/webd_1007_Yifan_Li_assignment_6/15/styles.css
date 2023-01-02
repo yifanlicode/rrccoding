@@ -1,0 +1,90 @@
+/*******f***********
+
+    Competency 15
+    Name: Yifan LI
+    Date:2022-11-03
+    Description:Competency 15 Using Math in Javascript
+
+
+*******************/
+
+body {
+	background: #336633;
+	font-family: Calibri;
+}
+
+#content {
+	width: 600px;
+	margin: 30px auto;
+	border: 3px white solid;
+	border-radius: 35px 25px 3px;
+	-moz-border-radius: 35px 25px 3px;
+	background: #c5e2c5;
+}
+#payForm {
+	width: 400px;
+	margin: 30px auto;
+	padding: 10px;
+	border: 3px white solid;
+	border-radius: 35px 25px 3px;
+	-moz-border-radius: 35px 25px 3px;
+	background: #e2c5e2;
+}
+
+#payForm label {
+	float: left;
+	width: 150px;
+	text-align: right;
+}
+
+#payForm footer {
+	margin: 5px auto;
+	clear: both;
+	padding-left: 150px;
+}
+
+#payForm input[type='submit'] {
+	margin: 0px auto;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+	background: red;
+	color: white;
+}
+
+table {
+	background: #c5e2c5;
+	border: 2px black solid;
+	margin: 10px auto;
+	width: 500px;
+}
+
+tr:nth-child(odd) {
+	background: #ffffff;
+}
+
+th {
+	background: #e2c5e2;
+	padding: 3px;
+}
+
+td,
+th {
+	border: 1px black solid;
+	width: 100px;
+}
+
+#content > h1 {
+	text-align: center;
+	width: 600px;
+}
+
+.totals {
+	font-weight: bold;
+}
+
+.totals > td {
+	border-top: 3px solid black;
+}

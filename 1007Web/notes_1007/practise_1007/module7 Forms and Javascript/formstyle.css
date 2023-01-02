@@ -1,0 +1,132 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+html{
+	background-color: #FFD;
+}
+
+
+div#wrapper{
+	width: 50%;
+	margin: 20px auto;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 8px #000;
+	padding: 20px;
+}
+
+fieldset
+{
+	margin-bottom: 30px;
+	padding: 5px;
+	border: none;
+}
+
+fieldset:last-child
+{
+	margin-bottom: 0px;
+}
+
+hr
+{
+	margin-bottom: 15px;
+}
+
+legend
+{
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 10px;
+	font-size: 14pt;
+}
+
+h3
+{
+	margin: 0px 0px 10px 0px;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+}
+
+label
+{
+	font-size: 12pt;
+}
+
+input:not(input[type="radio"]){
+	width: 200px;
+}
+
+.student
+{
+	width: 130px;
+	display: inline-block;
+	text-align: right;
+}
+
+.student_error
+{
+	margin-left: 130px;
+}
+
+.major
+{
+	width: 80px;
+	display: inline-block;
+	text-align: right; 
+}
+
+#bitmajordiv, #bamajordiv, #majorheading
+{
+	display: none;
+}
+
+input[type=text], button[type=submit], button[type=reset]
+{
+	padding: 5px 5px;
+}
+
+textarea{
+	width: 90%;
+}
+
+.formfield
+{
+	
+	margin: 10px 0px;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.error
+{
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+	padding: 10px 0;
+	display: none;
+}

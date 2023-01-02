@@ -1,0 +1,85 @@
+/*The position property specifies the
+ type of positioning method used for an element .*/
+
+/* (static, relative, fixed, absolute or sticky) */
+
+
+
+#static,#relative,#absolute1,#absolute2,#fixed,#sticky{
+	width:200px;
+	height: 200px;
+	background: #AABDEE;
+	text-align: center;
+	color: #FFF;
+}
+
+
+#static{
+	/* default position */
+	position: static;
+	background-color: #04AA6D;
+	color: #FFF;
+}
+
+#relative{
+	position:relative;
+	background-color: #22232c;
+	/* 边偏移 相对于默认位置移动,left相当于向右20px,top向下20px*/
+	/* 相当于自己原来位置的左边距 20px,上边距 10px */
+	left: 20px;
+	top: 10px;
+}
+
+
+/*Absolute 是相对于离他最近的位置元素*/
+/*if an absolute positioned element has no positioned ancestors,
+it uses the document body, and moves along with page scrolling.
+*/
+/*Absolute elements are removed from the normal flow, and can overlap elements.
+*/
+
+#absolute1{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: pink;
+	/*没有父元素,他会相对于 page 本身x*/
+	right: 0px;
+	top: 10px;
+}
+
+/* 这个元素在 Html 里面嵌套在 relative 里 */
+#absolute2{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background: pink;
+	/* 边偏移是相对于父元素的,父元素在左边 30px,父元素在他上面 50px*/
+	left: 90px;
+	top: 90px;
+}
+
+
+#fixed{
+	/* 和absolute 很像,如何放大缩小网页,都不随页面移动 */
+	position: fixed;
+	width: 200px;
+	height: 200px;
+	background: blue;
+	/* 离上页面 40%,左边40%,相当于在中间固定住.用的比较多,但会遇到很多问题. */
+	top: 40%;
+	left: 40%;
+}
+
+
+#sticky{
+	position: sticky;
+	width: 200px;
+	height: 200px;
+	
+}
+
+
+/*Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. */
+/* Other content will not be adjusted to fit into any gap left by the element.
+*/

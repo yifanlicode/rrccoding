@@ -1,0 +1,45 @@
+body{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #333;
+    text-transform: uppercase;
+    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+    background-repeat: no-repeat;}
+
+div#wrapper {
+    width: 650px;
+    background-color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1em;
+    border: 1px solid gray;
+}
+
+
+
+h1 {
+    font-size: 30px;
+    color: #ffa600;
+    text-align: center;
+}
+
+h2 {
+    font-size: 15px;
+    text-decoration: underline;
+    color: #c7c6c4;
+    text-align: center;
+}
+
+    
+
+img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    border: #ffa600 5px solid; 
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+
+

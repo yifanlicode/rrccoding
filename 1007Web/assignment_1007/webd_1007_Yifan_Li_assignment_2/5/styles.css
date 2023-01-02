@@ -1,0 +1,73 @@
+/*******f************
+
+    Competency 5
+    Name: YIFANLI
+    Date: 2022-09-15
+    Description:Learn Positioning
+
+********************/
+
+
+
+nav {
+	position: relative;
+	background-color: orange;
+	margin: 25px auto 0px;
+	width: 80%;
+	height: 70px;
+	line-height: 70px;
+	font-size: 0.9em;
+	text-align: center;
+	text-shadow: #000 1px 1px 3px;
+	box-shadow: 5px 5px 10px #000;
+	border-radius: 5px;
+}
+
+
+/* position moss.jpg to the right of navigation*/
+img{
+	position: absolute;
+	right: -100px;
+	top: -20px;
+}
+
+nav ul {
+	display: inline-block;
+}
+
+	nav ul li {
+		display: inline;
+		padding: 0px 7px;
+	}
+
+		nav ul li a {
+			text-transform: uppercase;
+			color: white;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+main {
+	margin: 20px auto;
+	padding: 10px;
+	width: 80%;
+}
+
+p {
+	margin: 10px;
+	padding: 5px;
+}
+
+aside {
+	/* Ensure the aside element never moves from its position */
+	position: fixed;
+	float: left;
+	left: 2px;
+	width: 15%;
+}
+
+article {
+	width: 90%;
+	padding-left: 15%;
+}
+

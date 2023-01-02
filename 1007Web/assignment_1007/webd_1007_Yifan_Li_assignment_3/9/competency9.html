@@ -1,0 +1,39 @@
+ <!-- Competency 5
+    Name: YifanLi
+    Date: 2022-10-09
+    Description: Module3-1 Inputs and Labels 
+	-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Competency 9</title>
+		<link rel="stylesheet" href="formstyles.css">
+	</head>
+	<body>
+		<!-- Create your inputs and labels inside the form tag -->
+		<form id="basicinfo" method="post" action="/action_page.php">
+			<fieldset>
+				<legend> Basic Info </legend>
+
+				<label for="username">UserName</label><br>
+				<input type="text" id="username" name="username" ><br>
+
+				<label for="pwd">PassWord</label><br>
+				<input type="password" id="pwd" name="pwd" ><br>
+
+				<label for="email">Email</label><br>
+				<input type="email" id="email" name="email" ><br>
+
+				<label for="phone">Phone</label><br>
+				<input type="tel" id="phone" name="phone" placeholder="EX:4315546019"><br>
+
+				<label for="address">Address</label><br>
+				<textarea id="address" name="address" rows="5"></textarea><br>
+
+				<input type="submit" value="submit">
+			</fieldset>
+		</form>
+	</body>
+</html>
