@@ -1,10 +1,12 @@
-## Install and Configuration XMAPP
+## Install and Configure XMAPP
 
 #### Install
 
+Download XMAPP ： [website](https://www.apachefriends.org/download.html)
+
 AMP is an acronym */*ˈækrənɪm/ that stands for [Apache](https://www.google.com/url?q=http://en.wikipedia.org/wiki/Apache_HTTP_Server&sa=D&source=editors&ust=1672979902209346&usg=AOvVaw0Be0goVS901j8ekYy67G_S) (our web-server), [MySQL](https://www.google.com/url?q=http://en.wikipedia.org/wiki/Mysql&sa=D&source=editors&ust=1672979902209839&usg=AOvVaw32XTri18tO4lX_4boVfWXX)/MariaDb (our database) and [PHP](https://www.google.com/url?q=http://en.wikipedia.org/wiki/Php&sa=D&source=editors&ust=1672979902210116&usg=AOvVaw3mXN8TlAM_ZZ_c_TQR6mxV) (our programming language).
 
-Download XMAPP from [website](https://www.apachefriends.org/download.html)
+
 
 #### Configure
 
