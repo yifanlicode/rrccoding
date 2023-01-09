@@ -34,13 +34,13 @@
 
 #### how
 
-![image-20230107231202681](1.1intro_assesments.assets/image-20230107231202681.png)
+![image-20230107231202681](week1.1_intro.assets/image-20230107231202681.png)
 
 **Assesments**
 
-![image-20230107230926859](1.1intro_assesments.assets/image-20230107230926859.png)
+![image-20230107230926859](week1.1_intro.assets/image-20230107230926859.png)
 
-3 discussion 15/100![image-20230107225536216](1.1intro_assesments.assets/image-20230107225536216.png) 2 PM Assignment 20/100 (15-25) 1.27  2.24 一个月一次作业
+3 discussion 15/100![image-20230107225536216](week1.1_intro.assets/image-20230107225536216.png) 2 PM Assignment 20/100 (15-25) 1.27  2.24 一个月一次作业
 
 Test1(multiple choice)  20    --15
 
@@ -78,7 +78,7 @@ To help keep things in perspective, the following process map (Table 3-1 from yo
 
 - 4 Phases of the Generic Project Life Cycle: (See figure 2-8, phases are at the top of each section)
 
-![image-20230107230357463](1.1intro_assesments.assets/image-20230107230357463.png)
+![image-20230107230357463](week1.1_intro.assets/image-20230107230357463.png)
 
 - 3 types of project life cycles:
 
