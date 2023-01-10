@@ -96,7 +96,13 @@ Matrix organizations are a blend of the functional and projectized organizationa
 
 #### 7.Explain the 3 types of project life cycles.
 
+- Waterfall: This is the traditional approach to project management, where the project is completed in a linear fashion, with each phase building on the previous one. The phases in a waterfall life cycle include planning, analysis, design, implementation, testing, and deployment. This method is best suited for projects that have well-defined requirements and deliverables, and where the scope of the project is unlikely to change
 
+- Agile: This approach is based on the idea of iterative development, where the project is broken down into small increments and delivered in a series of rapid cycles called "sprints." This method is best suited for projects that are highly flexible and adaptable, as it allows for rapid changes to be made in response to customer feedback or changes in the market.
+
+- Lean: This approach is based on the principles of the Toyota Production System and is designed to maximize value and minimize waste. It focuses on continuous improvement, rapid experimentation, and delivering small increments of value to customers. This method is best suited for projects where the requirements are uncertain and the focus is on delivering value to the customer as quickly as possible.
+
+  
 
 #### 8.Identify and describe the 5 project management process groups be the project management institute.
 
@@ -134,4 +140,8 @@ The project management processes can be organized into five groups of one or mor
 
 
 
-A Project Stakeholder is an individual or organization involved in a project, or those whose interests may be positively or negatively affected as a result of project execution or completion.
+A Project **Stakeholder** is an individual or organization involved in a project, or those whose interests may be positively or negatively affected as a result of project execution or completion.
+
+Different stakeholders may have competing needs and expectations.
+
+The Project Manager is accountable to the project. A successful project manager
