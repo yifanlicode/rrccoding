@@ -43,7 +43,7 @@ Overall, there are four things that a BA must keep in mind:
 
 ## Topic3:Skills and Characteristics of a Business Analyst
 
-#### **Why do we study Business Analysis?** 为什么学习 BA 
+#### **Why do we study Business Analysis?** 
 
 ![img](%20%20Module1Introduction%20to%20Systems%20Development%20.assets/pic003.gif)
 
