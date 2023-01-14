@@ -15,7 +15,6 @@ FROM Countries
 -- WHERE Clause what criteria are we using to filter the data
 -- region_id = 2 is a predicates, 2 - literals
 WHERE country_id = 'AR' AND region_id = 2;
--- the semicolon indicates this is the end of our query;
 
 
 
