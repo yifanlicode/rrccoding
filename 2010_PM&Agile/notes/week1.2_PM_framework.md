@@ -1,10 +1,10 @@
-
+# PM Framework
 
 #### 1.Define project and project management 
 
 **Project:** 
 
-A project is a temporary endeavour undertaken to create a unique product, service or result.
+**A project is a temporary endeavour undertaken to create a unique product, service or result.**
 
 > eg:Developing a new product, Designing a new vehicle,
 
@@ -40,7 +40,7 @@ Using Project Management skill you can:
 - Determine the resources (people, materials, and equipment) that are required to deliver the project objectives.
 - Manage project communications. 80-90% of a project manager’s job is communication.
 
-Many key factors must be balanced in managing a project. Four important ones are: Scope, Time, Cost and Quality.
+Many key factors must be balanced in managing a project. Four important ones are: **Scope, Time, Cost and Quality.**
 
 Scope, Time, and Cost are often referred to as the Triple Constraint. All three elements need to be balanced in order to effectively manage a project. As one factor changes, one or both of the other factors will also change.
 
@@ -60,15 +60,31 @@ A portfolio is a collection of projects or programs and other work that is group
 
 Many organizations set up a special unit called a Project Management Office (PMO) to centralize and coordinate the management of projects.
 
-### 3.Explain the differentces between operations and project work.
+#### 3.Explain the differentces between operations and project work.
 
-- Projects, as we have seen, are temporary and unique. The purpose of a project is to meet its objectives and then end.
+- Projects shorterm\temporary\ unique. 
+  - The purpose of a project is to meet its objectives and then end.
 
-- Operations are ongoing and repetitive. The purpose of operations is to keep the business going. Objectives are constantly changing as the needs of the business evolve.
+- Operations longterm(ongoing)\repetive `rɪˈpetətɪv`
+  - The purpose of operations is to keep the business going. Objectives are constantly changing as the needs of the business evolve.
+
 
 #### 4.Explain how organizational cultures and styles effect a project.
 
+Organizational culture and style can have a significant impact on the success of a project. 
 
+Organizational culture refers to the shared values, beliefs, and practices that shape an organization's behavior and decision-making. Organizational style refers to the specific ways in which an organization's culture is expressed in its processes, policies, and interactions. 
+
+Both culture and style can affect a project in several ways:
+
+1. Communication: Organizational culture and style can impact how information is shared and communicated within the organization, which can affect the flow of information in the project team.
+2. Decision-making: Culture and style can shape how decisions are made within the organization, and how much autonomy is given to project team members.
+3. Risk-taking: Culture and style can affect the level of risk that an organization is willing to take on, and this can have a direct impact on the project's success.
+4. Innovation: Culture and style can shape how open an organization is to new ideas and innovative approaches, which can affect the ability of the project team to explore new solutions.
+5. Collaboration: Culture and style can affect the level of collaboration and teamwork within an organization, which can have a direct impact on the project team's ability to work together effectively.
+6. Flexibility: Culture and style can shape how open an organization is to change, which can affect the project team's ability to adapt to changes in requirements or unexpected challenges.
+
+By understanding the impact of organizational culture and style on a project, leaders and team members can take steps to mitigate any negative effects and leverage the strengths of the organization to improve project outcomes.
 
 #### 5.Describe the 3 major types of organizational structures.
 
@@ -77,8 +93,6 @@ Many organizations set up a special unit called a Project Management Office (PMO
 
 
 The functional organization is one that many people are familiar with. In this type of organization there is a clear hierarchy where every employee has one clear supervisor. People are grouped into functional areas based upon the type of work they do.Project work is typically coordinated across the functional groups by the functional managers.In a purely functional organization each department works independently of the others. Information flows up the chain to the functional manager, across to another functional manager, and then down through the structure to the staff working on the project.
-
-
 
 At the opposite end of the spectrum is the fully projectized organization. In a projectized organization the project manager directly controls the project staff. The Project staff report directly to the project manager for the duration of the project.Most of the resources in the company are focused on delivering projects so project managers have a great deal of authority and independence.Project teams are often co-located and identify themselves as members of the project rather than members of a particular functional department. The project team members are usually working full time on the project.
 
@@ -116,15 +130,14 @@ The project management processes can be organized into five groups of one or mor
   >
   > Two key documents are produced:
   >
-  > • the Project Charter, which defines the rationale for the project, and
+  > • 	the Project Charter, which defines the rationale for the project, and  the Preliminary Scope Statement, which provides initial, high-level definition of what the project will do.
   >
-  > • the Preliminary Scope Statement, which provides initial, high-level definition of what the project will do.
-
+  
 - Planning Processes
 
   > Planning Processes are used to gather information from many sources and assemble it into a Project Management Plan. 
 
-- Executing Processes
+- Executing \ˈeksɪkjuːt\  Processes
 
   > Executing Processes carry out the project plan by performing the activities identified in the planning processes. 
 
@@ -138,9 +151,17 @@ The project management processes can be organized into five groups of one or mor
   >
   > This will include disbanding the project team, looking at lessons learned and closing out any third-party contracts among other things.
 
+#### 9. A project chartter at minimum should
+
+- Describe the project
+- identify the project management
+- give authority to the PM
 
 
-A Project **Stakeholder** is an individual or organization involved in a project, or those whose interests may be positively or negatively affected as a result of project execution or completion.
+
+#### 10.Project **Stakeholder**
+
+It is an individual or organization involved in a project, or those whose interests may be positively or negatively affected as a result of project execution or completion.
 
 Different stakeholders may have competing needs and expectations.
 

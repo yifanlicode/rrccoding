@@ -155,7 +155,19 @@ UML Unified Modelling Language is a set of rules that software designers follow 
 ## Question
 
 1. A core concept of class design is  **Inheritance**which says that actions and data are also part of a more 
+
 2. When a class "Is a" type of another class you can use **Inheritance** to say they follow the same core rules
+
 3. An Objects 'State' is defined by the current value of it's**attributes** defined by it's class
+
 4. Composition is when one class attribute indicates it 'has a' different class. The attributes type is complex and has rules.
-5. ![image-20230110225954781](module1.assets/image-20230110225954781.png)
+
+5. ![image-20230117093358439](../../../../../liyifan/Library/Application%20Support/typora-user-images/image-20230117093358439.png)
+
+6. ```
+   https://s2.loli.net/2023/01/17/NBY5ORCSUi6Q1Px.png
+   ```
+
+7. ```
+   https://s2.loli.net/2023/01/17/NBY5ORCSUi6Q1Px.png
+   ```
