@@ -1,22 +1,23 @@
 Module 5 – Writing Effective Business Requirements
 
-In this module, you will begin to write business requirements based on the inputs you have gathered. You will learn how to ensure your business requirements are not solutions, and how to make them measurable and testable. You will explore a business requirements template and learn how to adapt your approach for different kinds of projects.
-
-### Topics
-
-- Requirements vs. solutions
-- Writing tips
-- Volere template
-- Iterative systems development
-
- REQUIREMENTS:Chapter 14,16, Appendix A Mastering the Requirements Process
-
 ## MODULE 5: INTRODUCTION
 
 1. Identify the difference between a business requirement and a solution
+
+   A business requirement is a statement of what a business needs in order to function effectively and efficiently. It outlines the specific features or capabilities that a business requires in order to meet its objectives.
+
+   A solution, on the other hand, is a response to a business requirement. It is a proposed or actual system, process, or product that addresses the business requirement and provides the necessary functionality. A solution is the practical implementation of a business requirement.
+
+   In short, a business requirement defines what the business needs, while a solution is the answer to that need.
+
 2. Explain why business requirements must be measurable and testable
+
+   Business requirements must be measurable and testable to ensure that the desired outcomes of a project can be objectively evaluated. Measurable requirements provide a clear and specific target for the project, making it easier to determine if the project has been successful or not. Testable requirements can be verified through testing, allowing project managers and stakeholders to determine if the requirements have been met. This also helps ensure that the final solution meets the needs of the business and achieves its desired goals. Additionally, measurable and testable requirements provide a clear basis for making decisions during the project and for evaluating the results after the project has been completed.
+
 3. Name the key elements in the Volere business requirements template
+
 4. Apply effective writing techniques
+
 5. Identify how to design requirements for iterative systems development projects
 
 
@@ -44,7 +45,6 @@ In practice, when well done, business requirements will be a document that you w
 Techniques that will improve your written content are based on making your requirements as clear and easily understandable as possible.
 
 - Use simple english with simple sentence structure, for example:
-  - Provide a monthly total of dollar sales of this product.
 - Write each requirement to stand on its own; it should be clear and concise and define one requirement only. 
 
 #### CONTENT
@@ -138,6 +138,4 @@ In this module you have discovered that the process of writing effective require
 - Do you see how stakeholders and the project team must work in syncronization to help define requirements?
 - What are the advantages and disadvantages to developing business requirements using an iterative process?
 
-In the next modules you will learn about other tools you will use to present information, as well as determine criteria for measuring requirements.
 
-**You will have the opportunity to revisit this module when you prepare your final Case Study assignment at the end of this course.**

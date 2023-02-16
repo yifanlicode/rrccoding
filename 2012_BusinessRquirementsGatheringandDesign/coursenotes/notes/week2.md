@@ -61,7 +61,7 @@ Enter data (Input), Manipulate data (processing), Extract data (Output), Store d
 
 #### **9 System Characteristics**![image-20230207093541336](week2.assets/image-20230207093541336.png)
 
-There are 9 characteristics that we will look at using the following diagram:
+9  system characteristics that we will look at using the following diagram:
 
 - Purpose - The purpose identifies the overall goal or function of the system. Understanding this allows the BA to gauge the effectiveness of the system in accomplishing it's goal or function.
 

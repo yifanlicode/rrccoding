@@ -1,37 +1,16 @@
 # Module 4 – Gathering Inputs for Business Requirements
 
- Reading Chapters 5, 6, 7 of Mastering the Requirements Process
-
-- Various approaches and their pros and cons
-
-- When to use each approach
-
-- Additional tools and techniques
-
-  
-
-### Outcomes
-
-\1) Identify the various tools and techniques necessary for gathering Business Requirements
-
-\2) Understand when to use different approaches
-
-
+[toc]
 
 ### Topic 1: Various Approaches to Gathering Requirements
 
 #### **Why are there different approaches?**
 
-Collection of information is at the core of analysis. At the outset, you must collect information about the systems currently in use. Then you find out how users would like to improve the current system and organizational operations with new or replacement systems. When gathering information, analysts are like detectives, knowing that there is a problem to be solved and looking for clues that will uncover the solution. Unfortunately the clues are not always obvious, so analysts need to notice details, talk with users and follow leads.
-
-The best approach to gather requirements is to use a variety of techniques to ensure that the current business processes and the needs for the new system are will understood before moving into design. You don't want to discover later that you have key requirements wrong, because surprises later in the systems development life cycle can cause all kinds of problems.. There are two challenges you wiill find when planning your approach:
-
-- Selecting the right stakeholders to draw information from - Analysts let the objectives and needs of the tasks drive the selection of the people that will participate in the analysis process. Think about each task and the information it requires and then list the people who can provide that information. You must include all of the key stakeholders in the process, because if they are not, then they could cause problems during implementation.
-- Choosing the way(s) in which information is collected and creating a plan to gather information.
+There are different approaches to gathering requirements because the information needed to develop a new system or improve an existing one can be complex and not always obvious. Analysts use a variety of techniques to ensure that all relevant information is collected, including talking with stakeholders, following leads, and noticing details. The approach to gathering requirements is driven by the objectives and needs of the project and the information required to complete each task. It is important to select the right stakeholders and choose the best way to gather information in order to ensure that all key requirements are captured and that implementation goes smoothly.
 
 #### **Potential approaches**
 
-There are five main ways to gather information with each having their own strength and weakness. Therefore you often find that analysts will use a combination of many techniques to complete the process. The following will identify the five approaches and provide a quick description of them.
+There are five main ways to gather information with each having their own strength and weakness. 
 
 | Type of Approach                   | Description                                                  | Strength                                                     | Weakness                                                     |
 | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -40,8 +19,6 @@ There are five main ways to gather information with each having their own streng
 | Direct Observation/ Apprenticeship | Used to observe how people, the process and the system interact. | Allows for the confirmation of information gathered through other approaches | Users could misrepresent actual effort and process because they are being watched |
 | Existing Documentation             | Review existing documentation to determine how the current system was intended to operate. | Provides insight into how the system was intended to operate | Modifications to current system may not be reflected in the documentation; risk of inaccurate or incomplete data |
 | Existing System                    | Review existing system to determine current functionality.   | Provides insight into how the system currently operates      | The current system could represent functionality that is no longer used or in need of change. |
-
-
 
 
 
@@ -80,8 +57,6 @@ As stated earlier, the BA could use any one or a combination of approaches when 
 In the following topics, you will learn more about how to use these approaches.
 
 ### Topic 2: The Interview Approach
-
-Review Chapter 5 of Mastering the Requirements Process for additional information about interviewing.
 
 ### Interviewing Stakeholders
 
@@ -130,8 +105,6 @@ There are a number of problems that may affect the usefulness of interview resul
 - managers may want to avoid the "wrong" people - those who they think will be critical
 - managers may want to protect their workers' time
 - managers may want to avoid discussing the project with people who will then ask questions or raise concerns
-
-
 
 **Plan for efficiency and effectiveness**
 
@@ -182,10 +155,6 @@ The major advantage of questionnaires is their high 'penetration' and their low 
 - If you send the non-respondents a reminder (after a suitable period) you might get responses from 40% of the 60% who didn't respond the first time. So now you have a total 64% response rate.
 - If you contact the remaining 36% again, and you get 40% of those to respond, you will then have about 75%, and so on.
 - After nine reminders you get - in principle - a 99.4% response rate, but you will have certainly worn out your welcome long before this point!
-
-This is summarized in the following table:
-
-![img](https://learn.rrc.ca/content/enforced/319259-235748/BSAD_Module3/images/pic008.gif?_&d2lSessionVal=938Jw4uZ0lsvWPqJ306O5Mbsu&ou=319259)
 
 In practice, if the survey is well administered, after three reminders you may get a response rate close to 80%. Some people - for various legitimate reasons - will always say no.
 
@@ -270,10 +239,6 @@ When the questionnaire is sent out, you should include a cover letter indicating
 When the responses are received, you will group the questions together to review their responses. Depending on the type of question, you will be able to provide statistics about the responses to close-ended questions or create a list of responses to open-ended questions that will be reviewed for information. The analysis of open-ended questions will often deter people from using them on questionnaires because of the effort to review the responses.
 
 ### Topic 4: Observation Approach
-
-### **![img](https://learn.rrc.ca/content/enforced/319259-235748/BSAD_Module4/images/pic003.gif?_&d2lSessionVal=938Jw4uZ0lsvWPqJ306O5Mbsu&ou=319259) Assigned Reading**
-
-Review Chapter 5 of Mastering the Requirements Process
 
 ### Using observation - the BA as an "Apprentice"
 
@@ -464,4 +429,4 @@ This module covered the various approaches, tools and techniques necessary for e
 - Can you envision using these approaches on a project?
 - Do you know what other tools you might use to help illustrate or gather information?
 
-In the next module you will learn about writing business requirements now that you have gathering information from many sources.![image-20230205202519125](/Users/liyifan/Library/Application%20Support/typora-user-images/image-20230205202519125.png)
+In the next module you will learn about writing business requirements now that you have gathering information from many sources.!
